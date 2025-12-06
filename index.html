@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <p class="title">Todo List</p>
+
+    <div class="container">
+      <input
+        class="js-input-name input-name"
+        type="text"
+        placeholder="Todo name"
+      />
+
+      <input class="js-date-input input-date" type="date" />
+      <input class="js-time-input input-time" type="time" placeholder="time" />
+      <button
+        onclick="
+      addTodoName();
+    "
+        class="add-button"
+      >
+        Add
+      </button>
+    </div>
+
+    <div class="js-result result"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
