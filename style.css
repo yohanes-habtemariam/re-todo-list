@@ -12,6 +12,13 @@ body {
   align-items: center;
 }
 
+ .input-name,
+ .input-date,
+ .input-time {
+   width: 100%;
+   box-sizing: border-box;
+ }
+
 .container {
   margin-bottom: 10px;
   align-items: stretch;
@@ -216,4 +223,5 @@ body {
     width: 100%;
   }
 }
+
 
